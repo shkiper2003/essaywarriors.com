@@ -10,14 +10,15 @@ body {
 	word-wrap: break-word;
 }
 
-/*.container {
-	@include min-max(320px, 100%, 0);
+.container {
+    box-shadow: 1px 0px 2px #cec9b1, -1px 0px 2px #cec9b1;
+	/*-moz-box-shadow: 1px 0px 2px #cec9b1, -1px 0px 2px #cec9b1;
+    -webkit-box-shadow: 1px 0px 2px #cec9b1, -1px 0px 4px #cec9b1;
+  /*background: #f0f1f1;
+    width: 1000px;
+    overflow: hidden;
+    margin: 0 auto;*/
 }
-
-.wrap {
-	@include min-max(320px, 1200px, 15px);
-}*/
-
 .flex__wrap {
 	display: flex;
 	flex-wrap: wrap;

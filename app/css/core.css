@@ -2,13 +2,8 @@ html { font-size: 16px; }
 
 body { font-family: 'Roboto', 'Arial', sans-serif; overflow-wrap: break-word; word-wrap: break-word; }
 
-/*.container {
-	@include min-max(320px, 100%, 0);
-}
+.container { box-shadow: 1px 0px 2px #cec9b1, -1px 0px 2px #cec9b1; -moz-box-shadow: 1px 0px 2px #cec9b1, -1px 0px 2px #cec9b1; -webkit-box-shadow: 1px 0px 2px #cec9b1, -1px 0px 4px #cec9b1; background: #f0f1f1; width: 1000px; overflow: hidden; margin: 0 auto; }
 
-.wrap {
-	@include min-max(320px, 1200px, 15px);
-}*/
 .flex__wrap { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-flex-wrap: wrap; -ms-flex-wrap: wrap; flex-wrap: wrap; }
 
 .text-center { text-align: center; }
